@@ -37,6 +37,7 @@
     font-size: 1.5em;
     font-weight: 700;
     margin-bottom: 0.5em;
+    
 }
 
 .big-title {
@@ -167,6 +168,49 @@ h3 a:hover {
     background-color: white;
     
   }
+
+  .wave {
+    animation-name: animation-wave;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+  }
+  @keyframes animation-wave {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(20deg);
+    }
+    20% {
+      transform: rotate(-9deg);
+    }
+    30% {
+      transform: rotate(27deg);
+    }
+    40% {
+      transform: rotate(-5deg);
+    }
+    50% {
+      transform: rotate(19deg);
+    }
+    60% {
+      transform: rotate(-4deg);
+    }
+    70% {
+      transform: rotate(18deg);
+    }
+    80% {
+      transform: rotate(-5deg);
+    }
+    90% {
+      transform: rotate(25deg);
+    }
+    100% {
+      transform: rotate(-7deg);
+    }
+  }
+
   @media screen and (max-width: 880px) {
     #imageDiv {
       margin-left: 3em;
