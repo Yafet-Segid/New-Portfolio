@@ -221,8 +221,8 @@ h3 a:hover {
     #imageDiv {
       display: grid;
       grid-template-columns: 40% 40%;
-      gap: 3em;
-      margin-right: 3em;
+      gap: 6em;
+      margin-right: 9em;
       margin-top: 1em;
     }
 }
