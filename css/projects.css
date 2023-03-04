@@ -8,6 +8,10 @@ em {
   margin-left: 10px;
 }
 
+.moreProjects {
+  color: #1da1f2;
+}
+
 .project-cards-container {
   margin-top: 100px;
   height: fit-content;
@@ -30,7 +34,6 @@ em {
   padding: 5px;
   background-color: white;
 }
-
 
 .card-info {
   padding: 25px;
